@@ -4,7 +4,7 @@ import keyboard
 import win32api, win32con
 
 spam = input("What do you want to spam? ")
-spam_amount = input("How many times would you like to spam? ")
+spam_amount = input("How many times would you like to spam? (number only) ")
 time.sleep(1)
 print(f"Spamming {spam} {spam_amount} times.")
 time.sleep(2)
